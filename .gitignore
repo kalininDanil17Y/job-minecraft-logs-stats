@@ -1,0 +1,6 @@
+/logs/*.log
+/zipped_logs/*.zip
+/zipped_logs/*.gz
+minecraft_logs.xlsx
+.idea
+.venv
