@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 from tqdm import tqdm
 
 # Путь к директории с логами
-logs_path = "logs"  # замените на путь к вашим логам
+logs_path = "logs"
 
 log_pattern = re.compile(
     r"\[(\d{2}:\d{2}:\d{2})\]\s\[(?P<notygroup>.+)\]\s\[(?P<package>.+)]: (?P<message>.+)"
